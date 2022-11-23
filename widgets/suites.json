@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "7f55a06ec4993280f4ff53d89132c3d7",
+    "name" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    }
+  } ]
+}

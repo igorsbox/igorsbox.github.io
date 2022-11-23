@@ -1,0 +1,204 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Малый круг",
+    "children" : [ {
+      "name" : "Регистрация клиента без реферального кода",
+      "uid" : "bc7f53eaeeba97bb",
+      "parentUid" : "36db7bb1a627e215cf1be5c10288f493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669126552697,
+        "stop" : 1669126566231,
+        "duration" : 13534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешная авторизация клиента",
+      "uid" : "4e32db6d34b2b6bd",
+      "parentUid" : "36db7bb1a627e215cf1be5c10288f493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669126566375,
+        "stop" : 1669126578491,
+        "duration" : 12116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Добавление ожидаемой посылки",
+      "uid" : "c1f83773a17999d8",
+      "parentUid" : "36db7bb1a627e215cf1be5c10288f493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669126587190,
+        "stop" : 1669126620042,
+        "duration" : 32852
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Добавление получателя",
+      "uid" : "a42888f2ab4c07d3",
+      "parentUid" : "36db7bb1a627e215cf1be5c10288f493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669126620050,
+        "stop" : 1669126633066,
+        "duration" : 13016
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Добавление адреса доставки",
+      "uid" : "b5e3194071564745",
+      "parentUid" : "36db7bb1a627e215cf1be5c10288f493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669126642963,
+        "stop" : 1669126658882,
+        "duration" : 15919
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация оператора",
+      "uid" : "1566cfb7f2f0de1c",
+      "parentUid" : "36db7bb1a627e215cf1be5c10288f493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669126669259,
+        "stop" : 1669126676827,
+        "duration" : 7568
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Регистрация входящей посылки",
+      "uid" : "2f2e948c98712561",
+      "parentUid" : "36db7bb1a627e215cf1be5c10288f493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669126676838,
+        "stop" : 1669126688927,
+        "duration" : 12089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Заявка на отправку посылки (обычная, со статусом \"На складе\")",
+      "uid" : "8c70f8806e4094dd",
+      "parentUid" : "36db7bb1a627e215cf1be5c10288f493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669126688932,
+        "stop" : 1669126709876,
+        "duration" : 20944
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Взятие в обработку исходящей посылки",
+      "uid" : "5246a685f2e9b4af",
+      "parentUid" : "36db7bb1a627e215cf1be5c10288f493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669126709896,
+        "stop" : 1669126722857,
+        "duration" : 12961
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка исходящей посылки",
+      "uid" : "5b0e409306d43271",
+      "parentUid" : "36db7bb1a627e215cf1be5c10288f493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669126722863,
+        "stop" : 1669126737342,
+        "duration" : 14479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Регистрация исходящей посылки",
+      "uid" : "932f3faa7ac38270",
+      "parentUid" : "36db7bb1a627e215cf1be5c10288f493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669126737358,
+        "stop" : 1669126749576,
+        "duration" : 12218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "36db7bb1a627e215cf1be5c10288f493"
+  }, {
+    "name" : "Авторизация клиента ошибочная",
+    "uid" : "23fd69d99008ef17",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669126578510,
+      "stop" : 1669126587179,
+      "duration" : 8669
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Удаление получателя",
+    "uid" : "9178b8d1880d0c27",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669126633073,
+      "stop" : 1669126642953,
+      "duration" : 9880
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Удаление адреса доставки",
+    "uid" : "f9091491a07ab2c2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669126658897,
+      "stop" : 1669126669253,
+      "duration" : 10356
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Формирование исходящей посылки",
+    "uid" : "3938fa7555ab38ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669126749592,
+      "stop" : 1669126762382,
+      "duration" : 12790
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

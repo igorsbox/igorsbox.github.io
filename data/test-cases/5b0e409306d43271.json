@@ -1,0 +1,233 @@
+{
+  "uid" : "5b0e409306d43271",
+  "name" : "Проверка исходящей посылки",
+  "fullName" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest.checkingOutgoingPackage",
+  "historyId" : "70e51d3a8f68e0a382ba403bca847ed3",
+  "time" : {
+    "start" : 1669126722863,
+    "stop" : 1669126737342,
+    "duration" : 14479
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Заполняем поля Email и Пароль. Клик на кнопку Вход",
+      "time" : {
+        "start" : 1669126728867,
+        "stop" : 1669126730810,
+        "duration" : 1943
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик на посылку в списке посылок ожидающих регистрации",
+      "time" : {
+        "start" : 1669126731801,
+        "stop" : 1669126732748,
+        "duration" : 947
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик на кнопку Зарегистрировать",
+      "time" : {
+        "start" : 1669126732749,
+        "stop" : 1669126734290,
+        "duration" : 1541
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Копируем номер входящей посылки для проверки и вставляем в поле Номер посылки",
+      "time" : {
+        "start" : 1669126734302,
+        "stop" : 1669126734374,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик на кнопку Отправить",
+      "time" : {
+        "start" : 1669126734374,
+        "stop" : 1669126735927,
+        "duration" : 1553
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отмечаем все чекбоксы у всех товаров",
+      "time" : {
+        "start" : 1669126735927,
+        "stop" : 1669126735988,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка выбора проблем с посылкой",
+      "time" : {
+        "start" : 1669126735988,
+        "stop" : 1669126736205,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Заполняем поле комментарий",
+      "time" : {
+        "start" : 1669126736205,
+        "stop" : 1669126736250,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "comment",
+        "value" : "Автотестовый комментарий"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик на кнопку Сохранить",
+      "time" : {
+        "start" : 1669126736250,
+        "stop" : 1669126736907,
+        "duration" : 657
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка открытия страницы регистрации исходящей посылки",
+      "time" : {
+        "start" : 1669126736929,
+        "stop" : 1669126736955,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8282c1fe5ff8640f",
+      "name" : "Скриншот страницы",
+      "source" : "8282c1fe5ff8640f.png",
+      "type" : "image/png",
+      "size" : 130205
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest]/[method:checkingOutgoingPackage()]"
+  }, {
+    "name" : "feature",
+    "value" : "Малый круг"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "21288@MSI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkingOutgoingPackage"
+  }, {
+    "name" : "suite",
+    "value" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b0e409306d43271.json",
+  "parameterValues" : [ ]
+}

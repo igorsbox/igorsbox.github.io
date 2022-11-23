@@ -1,0 +1,230 @@
+{
+  "uid" : "5246a685f2e9b4af",
+  "name" : "Взятие в обработку исходящей посылки",
+  "fullName" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest.acceptOutgoingPackage",
+  "historyId" : "9cd9dd6f102184d72e794a3e6e0bc92e",
+  "time" : {
+    "start" : 1669126709896,
+    "stop" : 1669126722857,
+    "duration" : 12961
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Заполняем поля Email и Пароль. Клик на кнопку Вход",
+      "time" : {
+        "start" : 1669126715543,
+        "stop" : 1669126717379,
+        "duration" : 1836
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "На странице Исходящие посылки во вкладке Новые кликаем на посылку",
+      "time" : {
+        "start" : 1669126718292,
+        "stop" : 1669126718359,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик на кнопку Взять в обработку",
+      "time" : {
+        "start" : 1669126718359,
+        "stop" : 1669126719668,
+        "duration" : 1309
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка открытия формы Сборка посылки",
+      "time" : {
+        "start" : 1669126719669,
+        "stop" : 1669126719701,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выделяем номер(а) посылки(ок), копируем (Ctrl-C) в буфер обмена и нажимаем Ctrl-V (имитация сканирования штрихкода)",
+      "time" : {
+        "start" : 1669126719701,
+        "stop" : 1669126719994,
+        "duration" : 293
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка, что посылка собрана и кнопка \"Посылка собрана\" стала активной",
+      "time" : {
+        "start" : 1669126719994,
+        "stop" : 1669126720023,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик на кнопку Посылка собрана",
+      "time" : {
+        "start" : 1669126720023,
+        "stop" : 1669126720771,
+        "duration" : 748
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка открытия формы Проверка посылки или Регистрация исходящей посылки (если посылка была ранее проверена)",
+      "time" : {
+        "start" : 1669126720771,
+        "stop" : 1669126721871,
+        "duration" : 1100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяем собранную посылку с списке посылок, ожидающих регистрации",
+      "time" : {
+        "start" : 1669126721871,
+        "stop" : 1669126722489,
+        "duration" : 618
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка, что собранная посылка имеет статус Ожидает регистрации",
+      "time" : {
+        "start" : 1669126722490,
+        "stop" : 1669126722509,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a345376b8b303e69",
+      "name" : "Скриншот страницы",
+      "source" : "a345376b8b303e69.png",
+      "type" : "image/png",
+      "size" : 109540
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest]/[method:acceptOutgoingPackage()]"
+  }, {
+    "name" : "feature",
+    "value" : "Малый круг"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "21288@MSI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "acceptOutgoingPackage"
+  }, {
+    "name" : "suite",
+    "value" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5246a685f2e9b4af.json",
+  "parameterValues" : [ ]
+}

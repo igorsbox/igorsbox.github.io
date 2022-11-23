@@ -1,0 +1,228 @@
+{
+  "uid" : "3938fa7555ab38ca",
+  "name" : "Формирование исходящей посылки",
+  "fullName" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest.formingOutgoingPackage",
+  "historyId" : "b653b998c6bda618d0a7949f7f6db7e5",
+  "time" : {
+    "start" : 1669126749592,
+    "stop" : 1669126762382,
+    "duration" : 12790
+  },
+  "description" : "Принятая в обработку исходящая посылка, но не собранная и не зарегистрированная находится в списке Исходящие посылки на формировании (вкладка Формирование)",
+  "descriptionHtml" : "<p>Принятая в обработку исходящая посылка, но не собранная и не зарегистрированная находится в списке Исходящие посылки на формировании (вкладка Формирование)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Принятая в обработку исходящая посылка, но не собранная и не зарегистрированная находится в списке Исходящие посылки на формировании (вкладка Формирование)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Заполняем поля Email и Пароль. Клик на кнопку Вход",
+      "time" : {
+        "start" : 1669126755406,
+        "stop" : 1669126757472,
+        "duration" : 2066
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "На странице Исходящие посылки во вкладке Формирование кликаем на посылку",
+      "time" : {
+        "start" : 1669126758320,
+        "stop" : 1669126758393,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик на кнопку Собрать посылку",
+      "time" : {
+        "start" : 1669126758394,
+        "stop" : 1669126759466,
+        "duration" : 1072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка открытия формы Сборка посылки",
+      "time" : {
+        "start" : 1669126759466,
+        "stop" : 1669126759493,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выделяем номер(а) посылки(ок), копируем (Ctrl-C) в буфер обмена и нажимаем Ctrl-V (имитация сканирования штрихкода)",
+      "time" : {
+        "start" : 1669126759493,
+        "stop" : 1669126759773,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка, что посылка собрана и кнопка \"Посылка собрана\" стала активной",
+      "time" : {
+        "start" : 1669126759773,
+        "stop" : 1669126759813,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Клик на кнопку Посылка собрана",
+      "time" : {
+        "start" : 1669126759813,
+        "stop" : 1669126760598,
+        "duration" : 785
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка открытия формы Проверка посылки или Регистрация исходящей посылки (если посылка была ранее проверена)",
+      "time" : {
+        "start" : 1669126760598,
+        "stop" : 1669126761362,
+        "duration" : 764
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяем собранную посылку с списке посылок, ожидающих регистрации",
+      "time" : {
+        "start" : 1669126761362,
+        "stop" : 1669126762013,
+        "duration" : 651
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка, что собранная посылка имеет статус Ожидает регистрации",
+      "time" : {
+        "start" : 1669126762013,
+        "stop" : 1669126762032,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8bc1e0b3c0df03f3",
+      "name" : "Скриншот страницы",
+      "source" : "8bc1e0b3c0df03f3.png",
+      "type" : "image/png",
+      "size" : 109536
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest]/[method:formingOutgoingPackage()]"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "21288@MSI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "formingOutgoingPackage"
+  }, {
+    "name" : "suite",
+    "value" : "com.igorsbox.ForwardCDEKClient.ForwardCDEKPageObjectTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3938fa7555ab38ca.json",
+  "parameterValues" : [ ]
+}
